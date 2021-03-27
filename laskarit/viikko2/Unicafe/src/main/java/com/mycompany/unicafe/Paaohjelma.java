@@ -10,5 +10,8 @@ public class Paaohjelma {
         
         System.out.println( unicafeExactum.edullisiaLounaitaMyyty() );
         System.out.println(kortti);
+        Maksukortti k = new Maksukortti(100);
+        k.otaRahaa(50);
+        System.out.println(k.toString());
     }
 }
