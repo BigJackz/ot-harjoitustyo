@@ -1,0 +1,132 @@
+commit 40a925a41ea9863c46e7a8eda6a206c4a657b0df
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:26:43 2021 +0200
+
+    file 22 saatu vasta nyt mukaan :D
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1a8384330a07280e518218f49739d5c845cd4a72
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:25:57 2021 +0200
+
+    file1 poistettu file2 nimetty file22
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5c96876089748175ff00e7fd8ff48c9492eaf142
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:21:44 2021 +0200
+
+    tiedostoja lisätty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 6277632b085197d182b392076c6aed37b734a105
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:14:34 2021 +0200
+
+    ekaa ja kolmatta muokattu
+
+ eka.txt    | 373 +------------------------------------------------------------
+ kolmas.txt |  16 ++-
+ 2 files changed, 21 insertions(+), 368 deletions(-)
+
+commit b7071e970cb12195ef8323cdcf525bb1d63dbf86
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:09:12 2021 +0200
+
+    tiedosto poistettu for good
+
+ tiedosto.txt | 803 -----------------------------------------------------------
+ 1 file changed, 803 deletions(-)
+
+commit 4c30df5c2b35df4497c6c01196d51f7d8d184d94
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:06:52 2021 +0200
+
+    tiedoston nimi vaihdetty eka.txt
+
+ eka.txt | 803 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 803 insertions(+)
+
+commit f264ea0b701a1aa8ae960782a3560d22b6ef1ff8
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:05:40 2021 +0200
+
+    Toinen poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 22ddfce6f14d84e379228eaf2cb34ee26624d6cc
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 07:02:56 2021 +0200
+
+    tiedosto.txt muokattu taas
+
+ tiedosto.txt | 490 +----------------------------------------------------------
+ 1 file changed, 1 insertion(+), 489 deletions(-)
+
+commit ee1bc1fd347184fe7cb28597f137e973a23cfe4d
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:59:12 2021 +0200
+
+    tiedosto.txt muokattu
+
+ tiedosto.txt | 1292 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 1291 insertions(+), 1 deletion(-)
+
+commit 992fd581a739c1c3b668a4536d62d7f386df2bb0
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:53:18 2021 +0200
+
+    stuff lisätty
+
+ stuff/moro.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 2b0f8bc937bd5c30b6f827085eb5cb9074c90daf
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:51:47 2021 +0200
+
+    "Toista ja kolmatta muokattu"
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 28935742eed74cec409c36972458ccb2d5d6b837
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:49:45 2021 +0200
+
+    "kolmas luotu"
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 91e2d0f3449d3660935578ecf99f0a9a49ac9a38
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:46:23 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 92c66869ea890b7bf9389b449ad57dcc27765398
+Author: Joona <joonajarasanen@gmail.com>
+Date:   Sun Mar 21 06:43:18 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+illan setit
