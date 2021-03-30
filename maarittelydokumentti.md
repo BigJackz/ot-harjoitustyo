@@ -4,8 +4,9 @@ Sovelluksen on tarkoitus olla hieman I wanna be the Boshya muistuttava tasohyppe
 
 ## Perusversio
 Perusversiossa pelaajan on tarkoitus voida liikkua ja hyppiä ja kuolla esteisiin.
+Pelaajan on myös voitava saavuttaa checkpointteja johon peli tallentuu.
 Pelissä on myös tarkoitus olla valikko, josta voi aloittaa uuden pelin tai ladata aikaisemman.
-Pelistä pitäisi myös löytyä muutama eri alue.
+Pelistä pitäisi myös löytyä muutama eri alue ja erilaisia esteitä/ansoja.
 
 ## Jatkokehitysideoita
 Kun perusversio toimii ja siinä on tarpeeksi pelattavaa
