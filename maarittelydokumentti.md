@@ -1,13 +1,13 @@
-## Vaatimusmäärittely
-# Sovelluksen tarkoitus
+# Vaatimusmäärittely
+## Sovelluksen tarkoitus
 Sovelluksen on tarkoitus olla hieman I wanna be the Boshya muistuttava tasohyppelypeli, jossa pelaajan on tarkoitus päihittää peli mahdollisimman vähillä kuolemilla.
 
-# Perusversio
+## Perusversio
 Perusversiossa pelaajan on tarkoitus voida liikkua ja hyppiä ja kuolla esteisiin.
 Pelissä on myös tarkoitus olla valikko, josta voi aloittaa uuden pelin tai ladata aikaisemman.
 Pelistä pitäisi myös löytyä muutama eri alue.
 
-# Jatkokehitysideoita
+## Jatkokehitysideoita
 Kun perusversio toimii ja siinä on tarpeeksi pelattavaa
 * Saada highscore taulukko josta näkee joko nopeimmat ajat, jossa peli on läpäisty tai tilasto siitä kuka on voittanut pelin pienimmällä määrällä kuolemia tai molempien perusteella.
 * Luoda erilaisia ansoja joihin langeta
