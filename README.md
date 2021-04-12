@@ -7,4 +7,4 @@ ja ihan normaaliakin tekstiä
 
 [komentorivi.txt](https://github.com/BigJackz/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-[Määrittelydokumentti](https://github.com/BigJackz/ot-harjoitustyo/blob/master/maarittelydokumentti.md)
+[Määrittelydokumentti](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/maarittelydokumentti.md)
