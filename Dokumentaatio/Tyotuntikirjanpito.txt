@@ -1,0 +1,3 @@
+pvm    aika         työ
+12.4    3h          projektin alustuksen kanssa painiminen ja javafx tutustuminen
+13.4    4h          projektin koodia saatu kasaan vaihtelevalla menestyksellä
