@@ -11,11 +11,11 @@ public class PlayerTest {
 	
 	@Before
 	public void setUp() {
-		p = new Player();
+		p = new Player(10,10);
 	}
 	@Test
 	public void playerCanDie() {
 		p.die();
-		assertEquals(false, p.getAlive());
+		assertEquals(1, p.getDeaths());
 	}
 }
