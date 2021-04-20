@@ -80,7 +80,7 @@ public class Main extends Application {
 	}
 
 	public void update(Rectangle r, Player p, Stage stage) {
-		System.out.println("y: " + r.getTranslateY() + " x: " + r.getTranslateX() + " on air? : " + p.getOnAir());
+		//System.out.println("y: " + r.getTranslateY() + " x: " + r.getTranslateX() + " on air? : " + p.getOnAir());
 		if (pressedButtons.getOrDefault(KeyCode.A, false)) {
 			r.setTranslateX(r.getTranslateX() - 2);
 		}
@@ -94,7 +94,7 @@ public class Main extends Application {
 		}
 
 		Double past = r.getTranslateY();
-		System.out.println(past);
+		//System.out.println(past);
 		for (Node platform : platforms) {
 			if (r.getBoundsInParent().intersects(platform.getBoundsInParent())) {
 				p.setOnAir(false);
@@ -117,7 +117,6 @@ public class Main extends Application {
 		}
 		for (Node s : savePoints) {
 			if (r.getBoundsInParent().intersects(s.getBoundsInParent())) {
-				System.out.println("olet viineri");
 				currentLevel++;
 				/*GridPane gridPane = new GridPane();
 				Group group = new Group();
