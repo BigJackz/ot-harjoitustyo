@@ -42,6 +42,7 @@ public class Player {
 	public void jump() {
 		//this.model.setTranslateY(this.model.getTranslateY() + this.movement.getY());
 		if (this.onAir == false) this.model.setTranslateY(this.model.getTranslateY()-57);
+		this.onAir = true;
 	}
 	public void updatePosition(int x, int y) {
 		this.x = x;
