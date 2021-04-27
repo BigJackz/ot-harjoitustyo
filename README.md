@@ -1,9 +1,14 @@
 # HarjoitusTyö
 ## The Cursed Game
-Peli on erittäin köyhässä vaiheessa vielä...
-Pelissä voi liikkua käyttämällä näppäimiä A ja D ja hyppiä välilyönnillä
-Peliin lisätty pari testikenttää joissa ensimmäisessä mustat laatikot toimivat ansoina.
-Pelissä ei ole vielä "seiniä" eli kaiken läpi voi mennä : D
+Pelissä voi liikkua käyttämällä näppäimiä A ja D ja hyppiä välilyönnillä.
+Pelin hyppy jää ns. "varastoon" ja uuden hypyn saa aina kun laskeutuu vihreälle alustalle.
+Pelissä vihreät palikat ovat tasoja joissa voi olla, mustat palikat taas ansoja joihin kuolee.
+Pelistä löytyy 3 ensimmäistä karttaa.
+Pitäkää hauskaa :D
+### Erikoislaatat: 
+Pinkit pienet laatikot antavat myös hypyn takaisin pelaajalle.
+Vaaleansiniset pienet laatikot taas kasvattavat pelaajan nopeutta tietyksi määräksi liikkumista, nämä kasaantuvat eli jos keräät niitä kaksi kasvaa nopeutesi kahdella joksikin aikaa.
+Sininen keskikokoinen laatikko on checkpoint, josta pääsee seuraavaan tasoon. (Pelissä ei vielä voi tallentaa edistymistä).
 
 Pelin voi käynnistää antamalla komentoriville komennon: mvn compile exec:java -Dexec.mainClass=thecursedgame.ui.MyLauncher  .
 Testit voi suorittaa komennolla: mvn test jacoco:report tai vain mvn test .

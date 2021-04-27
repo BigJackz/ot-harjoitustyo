@@ -1,6 +1,9 @@
 package thecursedgame.domain;
 
+import java.util.ArrayList;
+
 import javafx.geometry.Point2D;
+import javafx.scene.Node;
 import javafx.scene.shape.Rectangle;
 
 public class Player {
@@ -22,10 +25,13 @@ public class Player {
 		this.model.setTranslateX(x);
 		this.model.setTranslateY(y);
 	}
-	public void die() {
+	public void die(ArrayList<Node> list) {
 		this.model.setTranslateX(this.x);
 		this.model.setTranslateY(this.y);
 		deaths++;
+		for (Node j : list) {
+			j.setVisible(true);
+		}
 	}
 	public Rectangle model() {
 		return this.model;
@@ -41,8 +47,11 @@ public class Player {
 	}
 	public void jump() {
 		//this.model.setTranslateY(this.model.getTranslateY() + this.movement.getY());
-		if (this.onAir == false) this.model.setTranslateY(this.model.getTranslateY()-57);
+		if (this.onAir == false) this.model.setTranslateY(this.model.getTranslateY()-60);
 		this.onAir = true;
+	}
+	public void jump2() {
+		this.model.setTranslateY(this.model.getTranslateY()-57);
 	}
 	public void updatePosition(int x, int y) {
 		this.x = x;
