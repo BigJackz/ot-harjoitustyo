@@ -24,7 +24,7 @@ public class Main extends Application {
 	ArrayList<Node> extraJumps = new ArrayList<>();
 	ArrayList<Node> speedBoosters = new ArrayList<>();
 	Levels levels = new Levels();
-	private int currentLevel = 2;
+	private int currentLevel = 0;
 	Group gameGroup;
 	Player player;
 	ArrayList<Node> traps = new ArrayList<>();
