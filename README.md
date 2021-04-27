@@ -17,3 +17,6 @@ Testit voi suorittaa komennolla: mvn test jacoco:report tai vain mvn test .
 [Määrittelydokumentti](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/maarittelydokumentti.md)
 
 [Tyotuntikirjanpito](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/Tyotuntikirjanpito.txt) 
+
+[Release 1.0](https://github.com/BigJackz/ot-harjoitustyo/releases/tag/Viikko5)
+
