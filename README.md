@@ -9,7 +9,8 @@ Pitäkää hauskaa :D
 ### Erikoislaatat: 
 Pinkit pienet laatikot antavat myös hypyn takaisin pelaajalle.
 Vaaleansiniset pienet laatikot taas kasvattavat pelaajan nopeutta tietyksi määräksi liikkumista, nämä kasaantuvat eli jos keräät niitä kaksi kasvaa nopeutesi kahdella joksikin aikaa.
-Sininen keskikokoinen laatikko on checkpoint, josta pääsee seuraavaan tasoon. (Pelissä ei vielä voi tallentaa edistymistä).
+Sininen keskikokoinen laatikko on checkpoint, josta pääsee seuraavaan tasoon.
+#### huomio jos pelaat peliä 144hz saattaa se tuntua tökkivälle kannattaa vaihtaa näytön virkistystaajuus 60hz jos se vaivaa
 
 ### Ohjelman suorittaminen
 
