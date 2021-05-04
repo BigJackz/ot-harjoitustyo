@@ -5,15 +5,27 @@ Pelin hyppy jää ns. "varastoon" ja uuden hypyn saa aina kun laskeutuu vihreäl
 Pelissä vihreät palikat ovat tasoja joissa voi olla, mustat palikat taas ansoja joihin kuolee.
 Pelistä löytyy 3 ensimmäistä karttaa.
 Pitäkää hauskaa :D
-HUOM! Huomasin liian myöhään että peli toimii erittäin hitaasti 60hz näytöillä, sillä menin tekemään kaikki testailut 144hz näytöllä.
-Jos testaat tätä 60hz näytöllä niin älä huoli en tarkoittanut peliä niin hitaaksi mille se vaikuttaa, yritän korjata tämän pian, jos edes voin...
+
 ### Erikoislaatat: 
 Pinkit pienet laatikot antavat myös hypyn takaisin pelaajalle.
 Vaaleansiniset pienet laatikot taas kasvattavat pelaajan nopeutta tietyksi määräksi liikkumista, nämä kasaantuvat eli jos keräät niitä kaksi kasvaa nopeutesi kahdella joksikin aikaa.
 Sininen keskikokoinen laatikko on checkpoint, josta pääsee seuraavaan tasoon. (Pelissä ei vielä voi tallentaa edistymistä).
 
-Pelin voi käynnistää antamalla komentoriville komennon: mvn compile exec:java -Dexec.mainClass=thecursedgame.ui.MyLauncher  .
-Testit voi suorittaa komennolla: mvn test jacoco:report tai vain mvn test .
+### Ohjelman suorittaminen
+
+Pelin voi käynnistää antamalla komentoriville komennon: 
+```
+mvn compile exec:java -Dexec.mainClass=thecursedgame.ui.MyLauncher
+```
+Tavallisen testin voi suorittaa komennolla:
+```
+mvn test
+```
+Jos haluaa kattavammat tulokset voi käyttää komentoa:
+```
+mvn test jacoco:report
+```
+
 ## Dokumentaatio
 
 [Määrittelydokumentti](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/maarittelydokumentti.md)
