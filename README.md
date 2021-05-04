@@ -34,4 +34,5 @@ mvn test jacoco:report
 [Tyotuntikirjanpito](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/Tyotuntikirjanpito.md) 
 
 [Release 1.0](https://github.com/BigJackz/ot-harjoitustyo/releases/tag/Viikko5)
+[Release 2.0](https://github.com/BigJackz/ot-harjoitustyo/releases/tag/viikko6)
 
