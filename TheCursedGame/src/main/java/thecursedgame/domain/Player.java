@@ -23,6 +23,10 @@ public class Player {
 		this.model.setTranslateX(x);
 		this.model.setTranslateY(y);
 	}
+	/**
+	 * Makes the model teleport to coordinates x and y
+	 * Also adds 1 to the death counter every time it's called
+	 */
 	public void die() {
 		this.model.setTranslateX(this.x);
 		this.model.setTranslateY(this.y);
@@ -40,14 +44,11 @@ public class Player {
 	public boolean getAlive() {
 		return this.alive;
 	}
-	public void jump() {
-		//this.model.setTranslateY(this.model.getTranslateY() + this.movement.getY());
-		if (this.onAir == false) this.model.setTranslateY(this.model.getTranslateY()-60);
-		this.onAir = true;
-	}
-	public void jump2() {
-		this.model.setTranslateY(this.model.getTranslateY()-57);
-	}
+	/**
+	 * Updates the characters position on x-y coordinates
+	 * @param x integer value of x coordinate where the position of the character is updated
+	 * @param y integer value of y coordinate where the position of the character is updated
+	 */
 	public void updatePosition(int x, int y) {
 		this.x = x;
 		this.y = y;

@@ -124,9 +124,7 @@ public class Main extends Application {
 	boolean megajump = false;
 	int count = 0;
 	public void update(Rectangle r, Player p, Stage stage) {
-		if (pressedButtons.getOrDefault(KeyCode.L, false)) {
-			System.out.println(p.getDeaths());
-		}
+
 		if (pressedButtons.getOrDefault(KeyCode.A, false)) {
 			r.setTranslateX(r.getTranslateX() - speed);
 		}
@@ -353,6 +351,11 @@ public class Main extends Application {
 		return levelNumber;
 	}
 	// Loading the deaths you had if you load a game
+	/**
+	 * Reads the amount of deaths from a text file containing 1 integer
+	 * @return The amount of deaths the person had last time if loading a game as integer
+	 * @throws IOException
+	 */
 	public int savedDeaths() throws IOException {
 		FileReader frDeaths = new FileReader(deaths);
 		BufferedReader brDeaths = new BufferedReader(frDeaths);
@@ -362,6 +365,11 @@ public class Main extends Application {
 		return deathss;
 	}
 	// makes the player dead, since I might add new stuff such as the speed boost I want to be able to reset them here
+    /**
+     * Makes the player die and removes any buffs that the player might have
+     * @param Player Instance of Player
+     * @see thecursedgame.domain.Player.java
+     */
 	public void die(Player p) {
 		p.die();
 		speed = originalSpeed;

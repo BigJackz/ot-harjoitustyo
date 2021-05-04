@@ -7,5 +7,6 @@ pvm | aika | työ
 27.4 | 8h | projektin koodia lisätty ja parannettu ja luotu 3 kenttää ja uusia ominaisuuksia
 4.5 | 1h | javafx update metodin fps ongelman korjaaminen
 4.5 | 7h | projektin koodin työstö
+4.5 | 1h | javadociin tutustuminen ja muutaman javadocin lisääminen
 
-yhteensä 30h
+yhteensä 31h

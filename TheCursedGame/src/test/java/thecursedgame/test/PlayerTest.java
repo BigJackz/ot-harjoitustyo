@@ -42,11 +42,5 @@ public class PlayerTest {
 		p.setOnAir(false);
 		assertEquals(false, p.getOnAir());
 	}
-	@Test
-	public void playerCanJump() {
-		p.setOnAir(false);
-		p.jump();
-		assertEquals(true, p.getOnAir());
-	}
 	
 }
