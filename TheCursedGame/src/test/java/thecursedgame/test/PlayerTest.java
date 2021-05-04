@@ -21,7 +21,7 @@ public class PlayerTest {
 	}
 	@Test
 	public void playerCanDie() {
-		p.die(list);
+		p.die();
 		assertEquals(1, p.getDeaths());
 	}
 	@Test
