@@ -22,7 +22,10 @@ Jos haluaa kattavammat tulokset voi käyttää komentoa:
 ```
 mvn test jacoco:report
 ```
-
+Checkstylen luonti
+```
+mvn jxr:jxr checkstyle:checkstyle
+```
 ## Dokumentaatio
 
 [Määrittelydokumentti](https://github.com/BigJackz/ot-harjoitustyo/blob/master/Dokumentaatio/maarittelydokumentti.md)
