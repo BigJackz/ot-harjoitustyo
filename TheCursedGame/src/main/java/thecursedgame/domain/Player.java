@@ -1,9 +1,5 @@
 package thecursedgame.domain;
 
-import java.util.ArrayList;
-
-import javafx.geometry.Point2D;
-import javafx.scene.Node;
 import javafx.scene.shape.Rectangle;
 
 public class Player {
@@ -55,10 +51,24 @@ public class Player {
 		this.model.setTranslateX(x);
 		this.model.setTranslateY(y);
 	}
+	/**
+	 * Checks the players deaths
+	 * @return the amount of deaths as Integer
+	 */
 	public int getDeaths() {
 		return this.deaths;
 	}
+	/**
+	 * Sets the players deaths
+	 * @param newDeaths The amount of deaths you want to set
+	 */
 	public void setDeaths(int newDeaths) {
 		this.deaths = newDeaths;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public void setY(int y) {
+		this.y = y;
 	}
 }

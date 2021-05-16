@@ -17,6 +17,6 @@ public class LevelsTest {
 
 	@Test
 	public void levelSizeIsRight() {
-		assertEquals(5, levels.getSize());
+		assertEquals(10, levels.getSize());
 	}
 }

@@ -1,18 +1,11 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
-Sovelluksen on tarkoitus olla hieman I wanna be the Boshya muistuttava tasohyppelypeli, jossa pelaajan on tarkoitus päihittää peli mahdollisimman vähillä kuolemilla.
+Sovellus on tasohyppelypeli, joka muistuttaa jokseenkin I wanna be the boshya.
+Pelin tarkoituksena on läpäistä peli mahdollisimman nopeasti ja vähin kuolemin.
 
-## Perusversio
-Perusversiossa pelaajan on tarkoitus voida liikkua ja hyppiä ja kuolla esteisiin.
-Pelaajan on myös voitava saavuttaa checkpointteja johon peli tallentuu.
-Pelissä on myös tarkoitus olla valikko, josta voi aloittaa uuden pelin tai ladata aikaisemman.
-Pelistä pitäisi myös löytyä muutama eri alue ja erilaisia esteitä/ansoja.
+## Ominaisuudet
+Pelissä on 9 toimivaa kenttää, joissa jokaisessa omat haasteensa. (Kannattaa pelata peliä enemmän kuin 3-4 ensimmäistä kenttää)
+Pelissä automaattinen tallennus, joka tallentaa missä kentässä olet, kauanko aikaa on mennyt ja montako kuolemaa on kertynyt. Peli myös tallentuu jokaisen kentän vaihdon yhteydessä.
+Pelissä on monia erikoislaattoja, joista muunmuassa ovat ylimääräinen hyppy, lisää vauhtia, korkeampi hyppy ja avain/ovi järjestelmä. Näitä on siis enemmänkin pelaamalla selviää mitä ne tekevät.
+Pelissä on valikko, josta voi aloittaa uuden pelin tai ladata aikaisemman tai mennä katsomaan hiscoreja, jonne tallentuu pelin läpipäässeiden ihmisten suoritukset aluksi siis ollen tyhjä.
 
-## Jatkokehitysideoita
-Kun perusversio toimii ja siinä on tarpeeksi pelattavaa
-* Saada highscore taulukko josta näkee joko nopeimmat ajat, jossa peli on läpäisty tai tilasto siitä kuka on voittanut pelin pienimmällä määrällä kuolemia tai molempien perusteella.
-* Luoda erilaisia ansoja joihin langeta
-* Jonkin verran uusia kenttiä
-* Lisätä vihollisia joita voi jollain tavalla tuhota
-* Lisätä jonkinlainen inventory systeemi jolloin pelaaja voi kerätä kaikenlaista tavaraa
-* Laittaa peliin arvoituksia

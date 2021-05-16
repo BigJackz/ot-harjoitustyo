@@ -8,5 +8,6 @@ pvm | aika | työ
 4.5 | 1h | javafx update metodin fps ongelman korjaaminen
 4.5 | 7h | projektin koodin työstö
 4.5 | 1h | javadociin tutustuminen ja muutaman javadocin lisääminen
-
-yhteensä 31h
+15.5 | 12h | loppujen kenttien suunnittelu ja toteuttaminen, sekä niihin uusien ominaisuuksien lisääminen. Myös pelinsisäinen kello, joka mittaa ajan lisätty.
+16.5 | 7h | koodin siistiminen ja hiscorejen lisääminen
+yhteensä 50h
