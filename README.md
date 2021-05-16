@@ -6,25 +6,6 @@ Pelissä vihreät palikat ovat tasoja joissa voi olla, mustat palikat taas ansoj
 Pelissä on 9 erilaista kenttää.
 Pitäkää hauskaa :D
 
-### Erikoislaatat: 
-```
-Pinkit pienet laatikot antavat myös hypyn takaisin pelaajalle.
-```
-```
-Vaaleansiniset pienet laatikot taas kasvattavat pelaajan nopeutta tietyksi määräksi liikkumista, nämä kasaantuvat eli jos keräät niitä kaksi kasvaa nopeutesi kahdella joksikin aikaa.
-```
-```
-Sininen keskikokoinen laatikko on checkpoint, josta pääsee seuraavaan tasoon.
-```
-```
-Pieni punainen laatikko antaa korkeamman hypyn joksikin aikaa.
-```
-```
-Violetti noin pelaajan kokoinen laatikko teleporttaa pelaajan jokaisessa kentässä itselleen määriteltyyn paikkaan
-```
-```
-Pieni keltainen laatikko on avain. Keräämällä kaikki avaimet isot ruskeat ovet aukeavat
-```
 #### huomio jos pelaat peliä 144hz saattaa se tuntua tökkivälle kannattaa vaihtaa näytön virkistystaajuus 60hz jos se vaivaa
 
 ### Ohjelman suorittaminen
