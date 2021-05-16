@@ -1,7 +1,8 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
 Sovellus on tasohyppelypeli, joka muistuttaa jokseenkin I wanna be the boshya.
-Pelin tarkoituksena on läpäistä peli mahdollisimman nopeasti ja vähin kuolemin.
+Pelin tarkoituksena on läpäistä peli mahdollisimman nopeasti ja vähin kuolemin. 
+Pelissä liikutaan käyttämällä näppäimiä A vasemmalle ja D oikealle sekä hyppäämään välilyönnillä.
 
 ## Ominaisuudet
 Pelissä on 9 toimivaa kenttää, joissa jokaisessa omat haasteensa. (Kannattaa pelata peliä enemmän kuin 3-4 ensimmäistä kenttää)
